@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #143409
+}
+
+header {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header p {
+    color: #D0CED7;
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 700px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.score {
+    text-align: end;
+    color: #D0CED7;
+}
+
+.board {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background-color: #130935;
+    color: orange;
+}
+
+.card img {
+    
+    width: 200px;
+    height: 200px;
+}
